@@ -10,3 +10,50 @@ body {
   vertical-align: middle;
   padding-top: 200px;
 }
+
+.header {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  display: table;
+}
+.header-header {
+  font-family: 'Kristi', cursive;
+  font-weight: 100;
+  font-size: 2em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.header-list {
+}
+.header-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+/* General Styles */
+/* unvisited link */
+a:link {
+ color: #FFF;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+ color: #FFF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #FFF;
+  text-decoration: underline;
+}
